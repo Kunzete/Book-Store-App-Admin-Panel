@@ -1,0 +1,7 @@
+{
+    "require": {
+        "bensontrent/firestore-php": "^3.1",
+        "kreait/firebase-php": "^7.16",
+        "google/cloud-firestore": "^1.47"
+    }
+}
