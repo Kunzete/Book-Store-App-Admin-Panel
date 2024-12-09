@@ -42,12 +42,24 @@ Ensure you have the following installed on your machine:
     cd Book-Store-App-Admin-Panel
     ```
 
-2. Install dependencies:
+2. Write Composer.json
+    ```json
+    {
+        "require": {
+            "bensontrent/firestore-php": "^3.1",
+            "kreait/firebase-php": "^7.16",
+            "google/cloud-firestore": "^1.47"
+        }
+    }
+    ```
+
+
+3. Install dependencies:
     ```bash
     composer install
     ```
 
-3. Set up environment variables:
+4. Set up environment variables:
    - Create a `.env` file in the project root.
    - Add your configuration details (e.g., Firebase credentials, API keys, etc.).
 
