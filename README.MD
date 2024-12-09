@@ -11,8 +11,6 @@ With this panel, administrators can easily oversee and control app content, ensu
 2. [Installation](#installation)
 3. [Usage](#usage)
 4. [Required Libraries](#required-libraries)
-5. [Contributing](#contributing)
-6. [License](#license)
 
 ---
 
@@ -40,8 +38,8 @@ Ensure you have the following installed on your machine:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/Kunzete/Book-Store-App-Admin-Panel.git
+    cd Book-Store-App-Admin-Panel
     ```
 
 2. Install dependencies:
@@ -72,7 +70,7 @@ Provide instructions for running and interacting with your project:
 This project requires the following libraries:
 
 1. **Bensontrent PHP SDK**  
-   - [GitHub/Documentation Link](#)
+   - [GitHub/Documentation Link](https://github.com/bensontrent/firestore-php)
    - A brief explanation of its role in the project.
 
 2. **Kreait Firebase PHP SDK**  
@@ -82,33 +80,6 @@ This project requires the following libraries:
 3. **Google Cloud Firestore**  
    - [GitHub/Documentation Link](https://github.com/googleapis/google-cloud-php-firestore)
    - Handles Firestore database operations.
-
----
-
-## Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m "Add a meaningful commit message"
-    ```
-4. Push the branch:
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request.
-
----
-
-## License
-
-This project is licensed under the [Your License Name](LICENSE) license.
 
 ---
 
